@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href="Style/css/bootstrap.min.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -20,7 +20,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="login.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="#">About Us</a>
@@ -29,7 +29,7 @@
                     <a class="nav-link active" href="#">Experience</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Register</a>
+                    <a class="nav-link active" href="login.html">Login</a>
                   </li>
                 </ul>
               </div>
@@ -37,10 +37,8 @@
           </nav>
           <div class="container-fluid">
             <div class="row justify-content-center">
-              <div class="col-2 col-lg-1">
-                <p class="fs-1 text-center">Register</p>
-
-
+              <div class="text-center col-2 col-lg-3">
+                <p class="fs-1">Register</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                   <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                 </svg>
@@ -49,29 +47,33 @@
             <div class="row justify-content-center">
               <div class="col-6 col-lg-4">
                 <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Jenis Kelamin</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Usia</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Tanggal Lahir</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="inputName" class="form-label">Nama Lengkap</label>
+                    <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp">
                   </div>
                   <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="inputGender" class="form-label">Jenis Kelamin</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Pilih...</option>
+                        <option value="1">Pria</option>
+                        <option value="2">Wanita</option>
+                      </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputAge" class="form-label">Usia</label>
+                    <input type="age" class="form-control" id="inputAge" aria-describedby="ageHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputDate" class="form-label">Tanggal Lahir</label>
+                    <input type="date" class="form-control" id="inputDate" aria-describedby="dateHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword">
                   </div>
                   <div class="d-grid gap-2 col-5 mx-auto">
                     <button class="btn btn-warning" type="button">Daftar</button>
@@ -81,7 +83,6 @@
             </div>
           </div>
       </section>
-
     <script src="/Style/js/bootstrap.min.js"></script>
 </body>
 </html>
