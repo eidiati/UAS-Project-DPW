@@ -1,0 +1,23 @@
+.bg {
+    background-image: url(/Frontend/Image/gambar-1.jpg);
+    background-size: cover;
+    height: 70%;
+}
+
+.bg-2{
+    background-image: url(/Frontend/Image/gambar-7.png);
+    background-size: cover;
+    
+}
+
+.pad {
+    margin-top: 15vh;
+}
+
+.header {
+    padding-top: 20vh;
+}
+
+footer {
+    background-color: lavender;
+}
