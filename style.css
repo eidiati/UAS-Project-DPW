@@ -10,12 +10,21 @@
     
 }
 
+.np {
+    padding-left: 8px;
+    padding-right: 0px;
+}
 .pad {
     margin-top: 15vh;
 }
 
 .justify {
     text-align: justify;
+}
+
+.im {
+    width: 80;
+    height: 80;
 }
 
 .mbo {
