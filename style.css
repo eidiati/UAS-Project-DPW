@@ -31,9 +31,18 @@
     margin-bottom: 0px;
 }
 
+.pdnorm {
+    padding-left: 0;
+}
+
 .nomr{
     margin: 0;
     padding: 0;
+}
+
+.norm {
+    text-decoration: none;
+    color: black;
 }
 
 .header {
