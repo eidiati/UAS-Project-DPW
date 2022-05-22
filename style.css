@@ -30,6 +30,12 @@
 .mbo {
     margin-bottom: 0px;
 }
+
+.nomr{
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     padding-top: 20vh;
 }
