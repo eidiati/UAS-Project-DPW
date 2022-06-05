@@ -4,7 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style2.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Chatting</title>
 </head>
 <body>
@@ -42,149 +46,228 @@
     </nav>
     <section class="bg-2">
         <div class="container-fluid">
-            <h1 class="fs-1 text-center ">CHAT</h1>
-            <div class="messaging">
-                  <div class="inbox_msg">
-                    <div class="inbox_people">
-                      <div class="headind_srch">
-                        <div class="recent_heading">
-                          <h4>Recent</h4>
-                        </div>
-                        <div class="srch_bar">
-                          <div class="stylish-input-group">
-                            <input type="text" class="search-bar"  placeholder="Search" >
-                            <span class="input-group-addon">
-                            <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
-                            </span> </div>
-                        </div>
-                      </div>
-                      <div class="inbox_chat">
-                        <div class="chat_list active_chat">
-                          <div class="chat_people">
-                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                            <div class="chat_ib">
-                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                              <p>Test, which is a new approach to have all solutions 
-                                astrology under one roof.</p>
+            <div class="row">
+                <div class="col mb-3">
+                    <h1 class="fs-1 text-center mt-3">Message</h1>
+                </div>
+            </div>
+        </div>
+        <div class="inner_body">
+            <section class="create_projectnw">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="left_menubx">
+                                <div class="frame">
+                                    <div id="sidepanel" class="sidepanel">
+                                                                            <div id="profile">
+                                                                                <div class="wrap">
+                                                                                    <img id="profile-img" src="/Frontend/Image/gambar-2-modified.png" class="online" alt="" />
+                                                                                    <p>Naomi</p>
+                                                                                    <i class="fa fa-chevron-down expand-button" aria-hidden="true"></i>
+                                                                                    <div id="status-options">
+                                                                                        <ul>
+                                                                                            <li id="status-online" class="active"><span class="status-circle"></span> <p>Online</p></li>
+                                                                                            <li id="status-away"><span class="status-circle"></span> <p>Away</p></li>
+                                                                                            <li id="status-busy"><span class="status-circle"></span> <p>Busy</p></li>
+                                                                                            <li id="status-offline"><span class="status-circle"></span> <p>Offline</p></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <div id="expanded">
+                                                                                        <label for="twitter"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></label>
+                                                                                        <input name="twitter" type="text" value="mikeross" />
+                                                                                        <label for="twitter"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></label>
+                                                                                        <input name="twitter" type="text" value="ross81" />
+                                                                                        <label for="twitter"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></label>
+                                                                                        <input name="twitter" type="text" value="mike.ross" />
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                        <div id="search">
+                                            <label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
+                                            <input type="text" placeholder="Search contacts...">
+                                        </div>
+                                        <div id="contacts" class="chat_list contacts">
+                                            <ul>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status online"></span>
+                                                        <img src="http://emilcarlsson.se/assets/louislitt.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Alvien <span class="date">Jun 05</span></p>
+                                                            <p class="preview">Hai, apa kabar?</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact active">
+                                                    <div class="wrap">
+                                                        <span class="contact-status busy"></span>
+                                                        <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Fauzi<span class="date">Jun 05</span></p>
+                                                            <p class="preview">Btw, pekanbaru dimananya?</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status away"></span>
+                                                        <img src="http://emilcarlsson.se/assets/rachelzane.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Shoaib <span class="date">Apr 20</span></p>
+                                                            <p class="preview">I was thinking that we could have chicken tonight, sounds good?</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status online"></span>
+                                                        <img src="http://emilcarlsson.se/assets/donnapaulsen.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Dilshad <span class="date">Apr 20</span></p>
+                                                            <p class="preview">Mike, I know everything! I'm Donna..</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status busy"></span>
+                                                        <img src="http://emilcarlsson.se/assets/jessicapearson.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Dilnawaz <span class="date">Apr 20</span></p>
+                                                            <p class="preview">Have you finished the draft on the Hinsenburg deal?</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status"></span>
+                                                        <img src="http://emilcarlsson.se/assets/haroldgunderson.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Asif Ali <span class="date">Apr 20</span></p>
+                                                            <p class="preview">Thanks Mike! :)</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status"></span>
+                                                        <img src="http://emilcarlsson.se/assets/danielhardman.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Shahbabu <span class="date">Apr 20</span></p>
+                                                            <p class="preview">We'll meet again, Mike. Tell Jessica I said 'Hi'.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status busy"></span>
+                                                        <img src="http://emilcarlsson.se/assets/katrinabennett.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Bushra Naaz <span class="date">Apr 20</span></p>
+                                                            <p class="preview">I've sent you the files for the Garrett trial.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status"></span>
+                                                        <img src="http://emilcarlsson.se/assets/charlesforstman.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Charles Forstman <span class="date">Apr 20</span></p>
+                                                            <p class="preview">Mike, this isn't over.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="contact">
+                                                    <div class="wrap">
+                                                        <span class="contact-status"></span>
+                                                        <img src="http://emilcarlsson.se/assets/jonathansidwell.png" alt="">
+                                                        <div class="meta">
+                                                            <p class="name">Jonathan Sidwell <span class="date">Apr 20</span></p>
+                                                            <p class="preview"><span>You:</span> That's bullshit. This deal is solid.</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--                                    <div id="bottom-bar">
+                                                                                <button id="addcontact"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i> <span>Add contact</span></button>
+                                                                                <button id="settings"><i class="fa fa-cog fa-fw" aria-hidden="true"></i> <span>Settings</span></button>
+                                                                            </div>-->
+                                    </div>
+                                    <div class="content">
+                                        <div class="contact-profile">
+                                            <img src="/Frontend/Image/gambar-11-modified.png" alt="">
+                                            <p>Fauzi Dwi Prasetyo</p>
+                                            <div class="social-media camera">
+                                                <a href="#" class="video_call">
+                                                    <i class="fa fa-video-camera m-2" aria-hidden="true"></i>
+                                                </a>
+                                                <a href="#" class="common-btn">
+                                                    View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="messages">
+                                            <ul>
+                                                <li class="sent">
+                                                    <img src="/Frontend/Image/gambar-11-modified.png" alt="">
+                                                    <p>Hai, selamat pagi manis, kenalin aku Fauzi</p>
+                                                    <span class="msg_time">8:20 AM, Today</span>
+                                                </li>
+                                                <li class="replies">
+                                                    <img src="/Frontend/Image/gambar-2-modified.png" alt="">
+                                                    <p>Halo juga, Fauzi. Kenalin juga aku naomi, salam kenal yaa .</p>
+                                                    <span class="msg_time">8.22 AM, Today</span>
+                                                </li>
+                                                <li class="sent">
+                                                    <img src="/Frontend/Image/gambar-11-modified.png" alt="">
+                                                    <p>Lagi ngapain ?</p>
+                                                    <span class="msg_time">8:23 AM, Today</span>
+                                                </li>
+                                                <li class="replies">
+                                                    <img src="/Frontend/Image/gambar-2-modified.png" alt="">
+                                                    <p>Lagi scroll - scroll hp aja</p>
+                                                    <span class="msg_time">8:25 AM, Today</span>
+                                                </li>
+                                                <li class="sent">
+                                                    <img src="/Frontend/Image/gambar-11-modified.png" alt="">
+                                                    <p>Ooo, btw kamu orang mana?</p>
+                                                    <span class="msg_time">8:26 AM, Today</span>
+                                                </li>
+                                                <li class="replies">
+                                                    <img src="/Frontend/Image/gambar-2-modified.png" alt="">
+                                                    <p>Aku orang Pekanbaru, kamu orang mana?</p>
+                                                    <span class="msg_time">8:26 AM, Today</span>
+                                                </li>
+                                                <li class="sent">
+                                                    <img src="/Frontend/Image/gambar-11-modified.png" alt="">
+                                                    <p>Ooo, sama dong, aku juga orang Pekanbaru.</p>
+                                                    <span class="msg_time">8:28 AM, Today</span>
+                                                </li>
+                                                <li class="sent">
+                                                    <img src="/Frontend/Image/gambar-11-modified.png" alt="">
+                                                    <p>Btw, pekanbaru dimananya?</p>
+                                                    <span class="msg_time">8:30 AM, Today</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="message-input">
+                                            <div class="wrap">
+                                                <input type="text" placeholder="Write your message...">
+                                                <i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+                                                <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                        <div class="chat_list">
-                          <div class="chat_people">
-                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                            <div class="chat_ib">
-                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                              <p>Test, which is a new approach to have all solutions 
-                                astrology under one roof.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="chat_list">
-                          <div class="chat_people">
-                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                            <div class="chat_ib">
-                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                              <p>Test, which is a new approach to have all solutions 
-                                astrology under one roof.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="chat_list">
-                          <div class="chat_people">
-                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                            <div class="chat_ib">
-                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                              <p>Test, which is a new approach to have all solutions 
-                                astrology under one roof.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="chat_list">
-                          <div class="chat_people">
-                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                            <div class="chat_ib">
-                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                              <p>Test, which is a new approach to have all solutions 
-                                astrology under one roof.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="chat_list">
-                          <div class="chat_people">
-                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                            <div class="chat_ib">
-                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                              <p>Test, which is a new approach to have all solutions 
-                                astrology under one roof.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="chat_list">
-                          <div class="chat_people">
-                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                            <div class="chat_ib">
-                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                              <p>Test, which is a new approach to have all solutions 
-                                astrology under one roof.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                    <div class="mesgs">
-                      <div class="msg_history">
-                        <div class="incoming_msg">
-                          <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                          <div class="received_msg">
-                            <div class="received_withd_msg">
-                              <p>Test which is a new approach to have all
-                                solutions</p>
-                              <span class="time_date"> 11:01 AM    |    June 9</span></div>
-                          </div>
-                        </div>
-                        <div class="outgoing_msg">
-                          <div class="sent_msg">
-                            <p>Test which is a new approach to have all
-                              solutions</p>
-                            <span class="time_date"> 11:01 AM    |    June 9</span> </div>
-                        </div>
-                        <div class="incoming_msg">
-                          <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                          <div class="received_msg">
-                            <div class="received_withd_msg">
-                              <p>Test, which is a new approach to have</p>
-                              <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
-                          </div>
-                        </div>
-                        <div class="outgoing_msg">
-                          <div class="sent_msg">
-                            <p>Apollo University, Delhi, India Test</p>
-                            <span class="time_date"> 11:01 AM    |    Today</span> </div>
-                        </div>
-                        <div class="incoming_msg">
-                          <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                          <div class="received_msg">
-                            <div class="received_withd_msg">
-                              <p>We work directly with our designers and suppliers,
-                                and sell direct to you, which means quality, exclusive
-                                products, at a price anyone can afford.</p>
-                              <span class="time_date"> 11:01 AM    |    Today</span></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="type_msg">
-                        <div class="input_msg_write">
-                          <input type="text" class="write_msg" placeholder="Type a message" />
-                          <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  
-                  <p class="text-center top_spac"> Design by <a target="_blank" href="https://www.linkedin.com/in/sunil-rajput-nattho-singh/">Sunil Rajput</a></p>
-                  
-                </div></div>
+                </div>
+            </section>
+        </div>
     </section>
     <script src="/Style/js/bootstrap.min.js"></script>
 </body>
