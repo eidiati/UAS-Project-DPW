@@ -8,7 +8,7 @@
     <title>Chatting</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: 482323;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #482323;">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">
                 <img src="/Frontend/Image/love.png" alt="" width="30" height="30" class="d-inline-block align-text-top mx-2">Meet You
@@ -30,7 +30,7 @@
                             <li><a class="dropdown-item" href="chat.html">Pesan</a></li>
                             <li><a class="dropdown-item" href="#">Disukai</a></li>
                             <li><a class="dropdown-item" href="#">Favorit</a></li>
-                            <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+                            <li><a class="dropdown-item" href="landing.html">Log Out</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -40,80 +40,151 @@
             </div>
         </div>
     </nav>
-    <section>
+    <section class="bg-2">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h1 class="fs-1 text-center mt-3">CHAT</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-8 ">
-                    <p class="ms-4">Pesan Masuk</p>
-                    <div class="row px-5">
-                        <div class="row border border-success p-2 mb-2">
-                            <div class="col-2 col-lg-1">
-                                <img src="/Frontend/Image/gambar-3.jpg" class="rounded-circle nomr" alt="..." width="40">
-                            </div>
-                            <div class="col">
-                                <p class="mt-0 mb-0"><b>Andi</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum at tempore aut...</p>
-                            </div>
+            <h1 class="fs-1 text-center ">CHAT</h1>
+            <div class="messaging">
+                  <div class="inbox_msg">
+                    <div class="inbox_people">
+                      <div class="headind_srch">
+                        <div class="recent_heading">
+                          <h4>Recent</h4>
                         </div>
-                    </div>
-                    <div class="row px-5">
-                        <div class="row border border-success p-2 mb-2">
-                            <div class="col-2 col-lg-1">
-                                <img src="/Frontend/Image/gambar-4.jpg" class="rounded-circle nomr" alt="..." width="40">
-                            </div>
-                            <div class="col">
-                                <p class="mt-0 mb-0"><b>Fika</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum at tempore aut...</p>
-                            </div>
+                        <div class="srch_bar">
+                          <div class="stylish-input-group">
+                            <input type="text" class="search-bar"  placeholder="Search" >
+                            <span class="input-group-addon">
+                            <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                            </span> </div>
                         </div>
-                    </div>
-                    <div class="row px-5">
-                        <div class="row border border-success p-2 mb-2">
-                            <div class="col-2 col-lg-1">
-                                <img src="/Frontend/Image/gambar-2.jpg" class="rounded-circle nomr" alt="..." width="40">
+                      </div>
+                      <div class="inbox_chat">
+                        <div class="chat_list active_chat">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                              <p>Test, which is a new approach to have all solutions 
+                                astrology under one roof.</p>
                             </div>
-                            <div class="col">
-                                <p class="mt-0 mb-0"><b>Dwi</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum at tempore aut...</p>
-                            </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-4 col-lg-2">
-                    <p class="ms-5">Online</p>
-                    <div class="row px-2">
-                        <div class="row border border-success p-2 mb-2">
-                            <div class="col-3">
-                                <img src="/Frontend/Image/gambar-3.jpg" class="rounded-circle nomr" alt="..." width="40">
+                        <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                              <p>Test, which is a new approach to have all solutions 
+                                astrology under one roof.</p>
                             </div>
-                            <div class="col">
-                                <p class="mt-3 mb-0"><b>Andi</b></p>
-                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="row px-2">
-                        <div class="row border border-success p-2 mb-2">
-                            <div class="col-3">
-                                <img src="/Frontend/Image/gambar-4.jpg" class="rounded-circle nomr" alt="..." width="40">
+                        <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                              <p>Test, which is a new approach to have all solutions 
+                                astrology under one roof.</p>
                             </div>
-                            <div class="col">
-                                <p class="mt-3 mb-0"><b>Fika</b></p>
-                            </div>
+                          </div>
                         </div>
+                        <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                              <p>Test, which is a new approach to have all solutions 
+                                astrology under one roof.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                              <p>Test, which is a new approach to have all solutions 
+                                astrology under one roof.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                              <p>Test, which is a new approach to have all solutions 
+                                astrology under one roof.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="chat_list">
+                          <div class="chat_people">
+                            <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                            <div class="chat_ib">
+                              <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                              <p>Test, which is a new approach to have all solutions 
+                                astrology under one roof.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-            <div class="row pt-3">
-                <div class="col-4">
-                    <button type="button" class="btn btn-warning">Pesan Baru</button>
-                </div>
-                <div class="col">
-                    <button type="button" class="btn btn-warning">Hapus Pesan</button>
-                </div>
-            </div>  
-        </div>
+                    <div class="mesgs">
+                      <div class="msg_history">
+                        <div class="incoming_msg">
+                          <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                          <div class="received_msg">
+                            <div class="received_withd_msg">
+                              <p>Test which is a new approach to have all
+                                solutions</p>
+                              <span class="time_date"> 11:01 AM    |    June 9</span></div>
+                          </div>
+                        </div>
+                        <div class="outgoing_msg">
+                          <div class="sent_msg">
+                            <p>Test which is a new approach to have all
+                              solutions</p>
+                            <span class="time_date"> 11:01 AM    |    June 9</span> </div>
+                        </div>
+                        <div class="incoming_msg">
+                          <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                          <div class="received_msg">
+                            <div class="received_withd_msg">
+                              <p>Test, which is a new approach to have</p>
+                              <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
+                          </div>
+                        </div>
+                        <div class="outgoing_msg">
+                          <div class="sent_msg">
+                            <p>Apollo University, Delhi, India Test</p>
+                            <span class="time_date"> 11:01 AM    |    Today</span> </div>
+                        </div>
+                        <div class="incoming_msg">
+                          <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                          <div class="received_msg">
+                            <div class="received_withd_msg">
+                              <p>We work directly with our designers and suppliers,
+                                and sell direct to you, which means quality, exclusive
+                                products, at a price anyone can afford.</p>
+                              <span class="time_date"> 11:01 AM    |    Today</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="type_msg">
+                        <div class="input_msg_write">
+                          <input type="text" class="write_msg" placeholder="Type a message" />
+                          <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <p class="text-center top_spac"> Design by <a target="_blank" href="https://www.linkedin.com/in/sunil-rajput-nattho-singh/">Sunil Rajput</a></p>
+                  
+                </div></div>
     </section>
     <script src="/Style/js/bootstrap.min.js"></script>
 </body>
