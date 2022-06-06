@@ -1,7 +1,6 @@
 .bg {
     background-image: url(/Frontend/Image/gambar-1.jpg);
     background-size: cover;
-    background-attachment: fixed;
     height: 70%;
 }
 
