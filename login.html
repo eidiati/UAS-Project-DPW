@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
-<body>
+<body class="bg-2">
+  <section class="desktop d-none d-lg-block">
     <section>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
           <div class="container-fluid">
@@ -64,14 +65,72 @@
               </div>
             </div>
           </div>
-          <footer class="d-flex flex-wrap justify-content-center py-2 mt-4 border-top">
-            <div class="col-8 d-flex justify-content-center align-items-center">
-              <a href="/" class="me-2 mb-md-0 text-muted text-decoration-none lh-1"> 
-              <img src="/Frontend/Image/love.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top"></a>
-              <span class="text-muted">© 2022 Company, Inc</span>
-            </div>
-          </footer>
       </section>
+  </section>
+  <section class="mobile d-block d-lg-none">
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd" >
+        <div class="container-fluid">
+            <a class="navbar-brand h1" href="landing.html">
+              <img src="/Frontend/Image/love.png" alt="" width="30" height="30" class="d-inline-block align-text-top">Meet You</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Meet You</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="landing.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="landing.html#abouut">Tentang Kami</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#experiencee">Testimoni</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="login.html">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="pad text-center col">
+                <p class="fs-1">Login</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="row justify-content-center pb-5">
+              <div class="col-6 col-lg-4">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="d-grid gap-2 col-5 mx-auto justify-content-center">
+                    <a href="beranda.html"><button class="btn btn-warning" type="button">Login</button></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+      </section>
+  </section>
     <script src="/Style/js/bootstrap.min.js"></script>
 </body>
 </html>
